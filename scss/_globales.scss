@@ -1,0 +1,68 @@
+body{
+    font-family: 'Imprima', sans-serif;
+    font-size: 62,5%;
+}
+a{
+    text-decoration: none;
+}  
+
+ul{
+    list-style-type: none;
+
+}
+h2{
+    text-align: center;
+}
+
+/*HEADER*/
+
+header{
+    height: 20vh;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    flex-direction: column;
+}
+header .logo{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+header .logo img{
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+header nav{
+    width: 100%;
+
+}
+header .navegacion{
+    font-size: 1em;
+    justify-content: center;
+    font-family: 'Imprima', sans-serif;
+    gap: 2rem;
+    
+}
+
+header .navegacion li a{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: #8ecae6ff;
+    
+}
+.navegacion li :hover{
+    background-color: #000851;
+    padding: 10px;
+    color: #ffb703ff;
+    border-radius: 7px;
+
+    
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: coral;
+    height: 25vh;
+}
+

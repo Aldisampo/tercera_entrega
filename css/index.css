@@ -1,0 +1,133 @@
+/*MAIN INDEX*/
+main.main-index {
+  margin: 0 auto;
+  background-color: var(--honey-yellow);
+  width: 1024px;
+  gap: 1rem;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 49px); }
+
+.first-article {
+  background-color: blueviolet;
+  grid-column: 2 / 10;
+  grid-row: 7 / 8; }
+
+/*VARIABLES*/
+:root {
+  --light-cornflower-blue: #8ecae6ff;
+  --blue-green: #219ebcff;
+  --prussian-blue: #023047ff;
+  --honey-yellow: #ffb703ff;
+  --orange: #fb8500ff; }
+
+.flex-row {
+  display: flex; }
+
+.flex-column {
+  display: flex; }
+
+.container {
+  display: grid; }
+
+body {
+  font-family: 'Imprima', sans-serif;
+  font-size: 62,5%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+h2 {
+  text-align: center; }
+
+/*HEADER*/
+header {
+  height: 20vh;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  flex-direction: column; }
+
+header .logo {
+  width: 100%;
+  text-align: center;
+  padding: 1rem; }
+
+header .logo img {
+  justify-content: center;
+  align-items: baseline; }
+
+header nav {
+  width: 100%; }
+
+header .navegacion {
+  font-size: 1em;
+  justify-content: center;
+  font-family: 'Imprima', sans-serif;
+  gap: 2rem; }
+
+header .navegacion li a {
+  text-decoration: none;
+  padding: 1rem 1rem;
+  color: #8ecae6ff; }
+
+.navegacion li :hover {
+  background-color: #000851;
+  padding: 10px;
+  color: #ffb703ff;
+  border-radius: 7px; }
+
+/*FOOTER*/
+footer {
+  background-color: coral;
+  height: 25vh; }
+
+/*PAGES*/
+/*CONOCENOS*/
+main.main-conocenos {
+  margin: 0 auto;
+  background-color: var(--honey-yellow);
+  width: 1024px;
+  gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 100px); }
+
+.historia {
+  background-color: cornflowerblue;
+  grid-column: 2 / 10;
+  grid-row: 2 / 5; }
+
+.carrusel {
+  background-color: cornflowerblue;
+  grid-column: 2 / 10;
+  grid-row: 6 / 11;
+  align-items: center; }
+
+/*PRODUCTOS*/
+/*MAIN*/
+main.main-productos {
+  margin: 0 auto;
+  background-color: var(--honey-yellow);
+  width: 1024px;
+  gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(13, 100px); }
+
+.first-div-prod {
+  background-color: cornflowerblue;
+  grid-column: span 10;
+  grid-row: 2 / 5; }
+
+.second-div-prod {
+  background-color: cornflowerblue;
+  grid-column: span 10;
+  grid-row: 6 / 9; }
+
+.three-div-prod {
+  background-color: cornflowerblue;
+  grid-column: span 10;
+  grid-row: 10 / 13; }
+
+.first-prod {
+  margin: auto;
+  width: 50%; }

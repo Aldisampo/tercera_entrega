@@ -1,0 +1,20 @@
+/*CONOCENOS*/
+main.main-conocenos{
+    margin: 0 auto;
+    background-color: var(--honey-yellow);
+    width: 1024px; 
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 100px);
+}
+.historia{
+    background-color: cornflowerblue;
+    grid-column: 2 / 10;
+    grid-row: 2 / 5;
+}
+.carrusel{
+    background-color: cornflowerblue;
+    grid-column: 2 / 10;
+    grid-row: 6 / 11;
+    align-items: center;
+}

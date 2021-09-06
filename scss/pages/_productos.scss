@@ -1,0 +1,32 @@
+/*PRODUCTOS*/
+/*MAIN*/
+
+main.main-productos{
+    margin: 0 auto;
+    background-color: var(--honey-yellow);
+    width: 1024px; 
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(13, 100px);
+}
+
+.first-div-prod {
+    background-color: cornflowerblue;
+    grid-column: span 10;
+    grid-row: 2 / 5;
+}
+.second-div-prod {
+    background-color: cornflowerblue;
+    grid-column: span 10;
+    grid-row: 6 / 9;
+}
+.three-div-prod {
+    background-color: cornflowerblue;
+    grid-column: span 10;
+    grid-row: 10 / 13;
+}
+.first-prod{
+    margin: auto;
+    width: 50%;
+    
+}
